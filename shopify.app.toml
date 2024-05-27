@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "dba22462f0f7d73b8b9ce785239503e2"
+name = "filestack-admin"
+handle = "filestack-admin-1"
+application_url = "https://attitudes-contamination-usage-road.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "quickstart-fb1e98d0.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://attitudes-contamination-usage-road.trycloudflare.com/auth/callback",
+  "https://attitudes-contamination-usage-road.trycloudflare.com/auth/shopify/callback",
+  "https://attitudes-contamination-usage-road.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-04"
+
+[pos]
+embedded = false
