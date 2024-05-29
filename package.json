@@ -11,7 +11,9 @@
     "generate": "shopify app generate",
     "deploy": "shopify app deploy"
   },
-  "dependencies": {},
+  "dependencies": {
+    "ruby": "^0.6.1"
+  },
   "author": "Celestial Systems Pvt. Ltd.",
   "private": true,
   "workspaces": [
