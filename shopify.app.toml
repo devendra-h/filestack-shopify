@@ -3,7 +3,7 @@
 client_id = "dba22462f0f7d73b8b9ce785239503e2"
 name = "filestack-admin"
 handle = "filestack-admin-1"
-application_url = "https://ccd-drawn-priorities-diff.trycloudflare.com"
+application_url = "https://attitudes-contamination-usage-road.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://ccd-drawn-priorities-diff.trycloudflare.com/auth/callback",
-  "https://ccd-drawn-priorities-diff.trycloudflare.com/auth/shopify/callback",
-  "https://ccd-drawn-priorities-diff.trycloudflare.com/api/auth/callback"
+  "https://attitudes-contamination-usage-road.trycloudflare.com/auth/callback",
+  "https://attitudes-contamination-usage-road.trycloudflare.com/auth/shopify/callback",
+  "https://attitudes-contamination-usage-road.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
